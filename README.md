@@ -4,7 +4,8 @@
 **Company**: CODTECH IT SOLUTIONS\
 **ID**: CT08DS2280\
 **Domain**: Artificial Intelligence\
-**Duration**: August to October 2024
+**Duration**: August to October 2024\
+**Mentor**: Neela Santhosh Kumar
 
 # Overview of the Project
 
