@@ -4,9 +4,9 @@
 **Domain**: Artificial Intelligence\
 **Duration**: August to October 2024
 
-## Overview of the project
+# Overview of the project
 
-## Project: Sentiment Analysis Using NLP
+### Project: Sentiment Analysis Using NLP
 
 ## Objective
 The goal of this project is to build and evaluate a sentiment analysis model using Natural Language Processing (NLP) techniques on the "Sentiment_Analysis_Dataset". 
