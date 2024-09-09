@@ -75,20 +75,14 @@ with open('sentiment_model.pkl', 'wb') as model_file:
 with open('tfidf_vectorizer.pkl', 'wb') as file:
     pickle.dump(best_pipeline.named_steps['tfidfvectorizer'], file)
 
-def custom_sentiment_classification(text, model_prediction):
-    mixed_words = ['good', 'bad']
-    tokens = word_tokenize(text.lower())
-    if any(word in tokens for word in mixed_words):
-        return 'Neutral'
-    else:
-        sentiment = {0: 'Negative', 1: 'Neutral', 2: 'Positive'}
-        return sentiment.get(model_prediction, 'Unknown')
-
+# User Interface for Input Handling
 def predict_sentiment(text):
     processed_text = preprocess_text(text)
-    model_prediction = best_pipeline.predict([processed_text])[0]
-    final_prediction = custom_sentiment_classification(text, model_prediction)
-    return final_prediction
+    prediction = best_pipeline.predict([processed_text])
+    print(f"Model Prediction: {prediction}")  # Debugging line
+    return prediction[0]  # Adjust this depending on the type of label (string or numeric)
 
+
+# Example usage
 user_input = input("Enter a sentence for sentiment analysis: ")
 print("Predicted Sentiment:", predict_sentiment(user_input))
