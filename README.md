@@ -54,11 +54,11 @@ The goal of this project is to build and evaluate a sentiment analysis model usi
     - `pickle` for saving and loading models
       
 ## Output
-# Confusion Matrix
+### Confusion Matrix
 ![Confusion_Matrix](https://github.com/user-attachments/assets/b5071992-43f6-4b22-94c0-177ee94ffd27)
 
-# Sentiment Distribution in Predictions
-
+### Sentiment Distribution in Predictions
+![Sentiment_Distribution_in_Predictions](https://github.com/user-attachments/assets/b3694afb-8648-41f0-896b-002e45e56993)
 
 ## Conclusion
 This project demonstrates the application of NLP techniques for sentiment analysis. The model achieved good performance on the validation set, and various evaluation metrics were used to assess its effectiveness. The visualizations provide insights into the model's predictions and its ability to classify text accurately. The trained model and vectorizer have been saved for future use or further experimentation.
