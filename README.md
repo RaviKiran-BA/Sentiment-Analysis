@@ -4,7 +4,7 @@
 **Domain**: Artificial Intelligence\
 **Duration**: August to October 2024
 
-# Overview of the project
+# Overview of the Project
 
 ### Project: Sentiment Analysis Using NLP
 
