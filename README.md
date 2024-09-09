@@ -9,7 +9,9 @@
 Project: Sentiment Analysis Using NLP
 
 ## Objective
-The goal of this project is to build and evaluate a sentiment analysis model using Natural Language Processing (NLP) techniques on the "Sentiment_Analysis_Dataset". The model is trained to classify text into three sentiment categories: Negative, Neutral, and Positive. The project involves preprocessing text data, building a classification pipeline with TF-IDF vectorization and Logistic Regression, and evaluating the model’s performance through cross-validation, hyperparameter tuning, and various visualizations.
+The goal of this project is to build and evaluate a sentiment analysis model using Natural Language Processing (NLP) techniques on the "Sentiment_Analysis_Dataset". 
+The model is trained to classify text into three sentiment categories: Negative, Neutral, and Positive. 
+The project involves preprocessing text data, building a classification pipeline with TF-IDF vectorization and Logistic Regression, and evaluating the model’s performance through cross-validation, hyperparameter tuning, and various visualizations.
 
 ## Key Activities
 1. **Data Preparation**:
@@ -61,4 +63,7 @@ The goal of this project is to build and evaluate a sentiment analysis model usi
 ![Sentiment_Distribution_in_Predictions](https://github.com/user-attachments/assets/b3694afb-8648-41f0-896b-002e45e56993)
 
 ## Conclusion
-This project demonstrates the application of NLP techniques for sentiment analysis. The model achieved good performance on the validation set, and various evaluation metrics were used to assess its effectiveness. The visualizations provide insights into the model's predictions and its ability to classify text accurately. The trained model and vectorizer have been saved for future use or further experimentation.
+This project demonstrates the application of NLP techniques for sentiment analysis. 
+The model achieved good performance on the validation set, and various evaluation metrics were used to assess its effectiveness. 
+The visualizations provide insights into the model's predictions and its ability to classify text accurately. 
+The trained model and vectorizer have been saved for future use or further experimentation.
