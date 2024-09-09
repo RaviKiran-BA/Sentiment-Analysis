@@ -57,29 +57,32 @@ The project involves preprocessing text data, building a classification pipeline
     - `scikit-learn` for machine learning
     - `pickle` for saving and loading models
 - **Machine Learning Model**:
-    - Logistic Regression with TF-IDF vectorization
--**File Handling**:
-    -Pickle for saving and loading models
+  - Logistic Regression with TF-IDF vectorization
+- **File Handling**:
+  - Pickle for saving and loading models
 
 ## Files
--**Sentiment_Analysis_Dataset.csv**:
-    -The dataset used for training and testing the sentiment analysis model.
--**main.py**:
-    -The main Python script implementing data preprocessing, model training, and evaluation.
--**sentiment_model.pkl**:
-    -Pickle file containing the trained sentiment analysis model.
--**tfidf_vectorizer.pkl**:
-    -Pickle file containing the TF-IDF vectorizer used for text processing.
+
+- **Sentiment_Analysis_Dataset.csv**:
+  - The dataset used for training and testing the sentiment analysis model.
+- **main.py**:
+  - The main Python script implementing data preprocessing, model training, and evaluation.
+- **sentiment_model.pkl**:
+  - Pickle file containing the trained sentiment analysis model.
+- **tfidf_vectorizer.pkl**:
+  - Pickle file containing the TF-IDF vectorizer used for text processing.
 
 ## Features
--**Sentiment Classification**:
-    -Classifies text into Negative, Neutral, or Positive categories.
--**Model Evaluation**:
-    -Provides accuracy scores, classification reports, and confusion matrices.
--**Visualization**:
-    -Includes plots for confusion matrices and sentiment distribution.
--**Saved Models**:
-    -Trained model and vectorizer saved for future use.
+
+- **Sentiment Classification**:
+  - Classifies text into Negative, Neutral, or Positive categories.
+- **Model Evaluation**:
+  - Provides accuracy scores, classification reports, and confusion matrices.
+- **Visualization**:
+  - Includes plots for confusion matrices and sentiment distribution.
+- **Saved Models**:
+  - Trained model and vectorizer saved for future use.
+
 
 ## Output
 ### Confusion Matrix
@@ -95,11 +98,12 @@ The visualizations provide insights into the model's predictions and its ability
 The trained model and vectorizer have been saved for future use or further experimentation.
 
 ## Acknowledgements
--**NLTK**:
-    -For providing tools for text preprocessing.
--**scikit-learn**:
-    -For machine learning utilities and model evaluation.
--**Matplotlib and Seaborn**:
-    -For visualization of results.
--**Pandas and NumPy**:
-    -For data manipulation and numerical operations.
+
+- **NLTK**:
+  - For providing tools for text preprocessing.
+- **scikit-learn**:
+  - For machine learning utilities and model evaluation.
+- **Matplotlib and Seaborn**:
+  - For visualization of results.
+- **Pandas and NumPy**:
+  - For data manipulation and numerical operations.
