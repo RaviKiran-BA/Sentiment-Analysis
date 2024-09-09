@@ -6,7 +6,7 @@
 
 ## Overview of the project
 
-Project: Sentiment Analysis Using NLP
+## Project: Sentiment Analysis Using NLP
 
 ## Objective
 The goal of this project is to build and evaluate a sentiment analysis model using Natural Language Processing (NLP) techniques on the "Sentiment_Analysis_Dataset". 
