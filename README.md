@@ -52,6 +52,9 @@ The goal of this project is to build and evaluate a sentiment analysis model usi
     - `matplotlib` and `seaborn` for visualization
     - `scikit-learn` for machine learning
     - `pickle` for saving and loading models
+      
+## Output
+
 
 ## Conclusion
 This project demonstrates the application of NLP techniques for sentiment analysis. The model achieved good performance on the validation set, and various evaluation metrics were used to assess its effectiveness. The visualizations provide insights into the model's predictions and its ability to classify text accurately. The trained model and vectorizer have been saved for future use or further experimentation.
