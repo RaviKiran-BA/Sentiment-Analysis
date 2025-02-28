@@ -1,12 +1,3 @@
-# CODTECH-TASK3
-
-**Name**: Ravi Kiran B A\
-**Company**: CODTECH IT SOLUTIONS\
-**ID**: CT08DS2280\
-**Domain**: Artificial Intelligence\
-**Duration**: August to October 2024\
-**Mentor**: Neela Santhosh Kumar
-
 # Overview of the Project
 
 ### Project: Sentiment Analysis Using NLP
